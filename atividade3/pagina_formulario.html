@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    
+    <h1>Formulário - História dos Videogames</h1>
+
+    <form action="Arquivo.sql" method="post">
+
+        <p>
+        <fieldset>
+        <legend>Console que você mais gosta</legend>
+            <br>
+                <input type="radio" name="games" value=""/>Nitendo
+            <br>
+                <input type="radio" name="games" value=""/>Sega
+            <br>
+                <input type="radio" name="games" value=""/>PlayStation
+            <br>
+               <input type="radio" name="games" value=""/>Xbox
+        </fieldset>
+        </p>
+
+        <p>
+        <fieldset>
+        <legend>Gênero de jogo preferido</legend>
+        <select>
+            
+            <option></option>
+            <option value="Ação">Ação</option>
+            <option value="Rpg">Rpg</option>
+            <option value="Esportes">Esportes</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Luta">Luta</option>
+            <option value="Corrida">Corrida</option>
+        </select>
+        </fieldset>
+    </p>
+        
+        <p>
+        <fieldset>
+            <legend>Escolha Seu Personagem Favorito</legend>
+            <label for="mario">Mario (Super Mario Bros.)</label>
+            <input type="radio" id="mario" name="personagem" value="Mario" required>
+            <br>
+            <label for="megaman">Mega Man (Mega Man)</label>
+            <input type="radio" id="megaman" name="personagem" value="Mega Man">
+            <br>
+            <label for="rachet">Ratchet (Ratchet & Clank)</label>
+            <input type="radio" id="rachet" name="personagem" value="Ratchet">
+            <br>
+            <label for="gordon">Gordon Freeman (Half-Life)</label>
+            <input type="radio" id="gordon" name="personagem" value="Gordon Freeman">
+            <br>
+            <label for="doomguy">Doom Guy (DOOM)</label>
+            <input type="radio" id="doomguy" name="personagem" value="Doom Guy">
+            <br>
+            <label for="kratos">Kratos (God of War)</label>
+            <input type="radio" id="kratos" name="personagem" value="Kratos">
+            <br>
+            <label for="chell">Chell (Portal)</label>
+            <input type="radio" id="chell" name="personagem" value="Chell">
+            <br>
+            <label for="link">Link (The Legend of Zelda)</label>
+            <input type="radio" id="link" name="personagem" value="Link">
+        </fieldset>
+        </p>
+
+        <p>
+        <fieldset>
+            <legend>Qual Era dos Videogames Você Mais Gosta?</legend>
+            <label for="anos80">Era dos 8 bits (Anos 80)</label>
+            <input type="radio" id="anos80" name="era_videogame" value="Anos 80" required>
+            <br>
+            <label for="anos90">Era dos 16 bits (Anos 90)</label>
+            <input type="radio" id="anos90" name="era_videogame" value="Anos 90">
+            <br>
+            <label for="anos2000">Era dos 128 bits (Anos 2000)</label>
+            <input type="radio" id="anos2000" name="era_videogame" value="Anos 2000">
+            <br>
+            <label for="anos2010">Era HD (Anos 2010)</label>
+            <input type="radio" id="anos2010" name="era_videogame" value="Anos 2010">
+        </fieldset>
+        </p>
+
+        <p>
+        <fieldset>
+            <legend>Comentários</legend>
+            <label for="comentario">Compartilhe sua opinião sobre os videogames antigos:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+        </fieldset>
+        </p>
+
+        
+        <p>Nome: <input type="text" name="nome" placeholder="escreva seu nome" size="60"/></p>
+
+        <p>Email: <input type="email" /></p>
+
+        <p>Telefone: <input type="tel" placeholder="0000000000" maxlength="11" /></p>
+        
+        <p>Data De Nascimento: <input type="date" /></p>
+
+        <p>Idade: <input type="number" /></p>
+
+        <p><input type="checkbox" name="confirmar"/>
+        Aceito receber noticias relacionadas a video game.</p>
+
+        <P>
+            <input type="reset"/>
+            <input type="submit"/>
+        </P>
+    
+    <br>
+    <br>
+    <a href="index.html">Voltar para a Página Principal</a>
+</form>
+
+</body>
+</html>

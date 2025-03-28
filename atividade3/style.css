@@ -1,0 +1,10 @@
+body{
+background-color: bisque;
+border: rgb(219, 206, 18) solid 3px;
+margin: 30 auto;
+}
+form{
+background-color: blanchedalmond;
+border: black solid 2px;
+text-align: center;
+}
